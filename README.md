@@ -10,13 +10,19 @@ Collection de commandes Git personnalisées pour Windows (PowerShell + CMD) qui 
    git clone https://github.com/QzLP2P/git-aliases.git
    ```
 
-2. Ajouter le dossier au PATH utilisateur :
+2. Générer les wrappers `.cmd` :
+
+   ```powershell
+   .\build-script.ps1
+   ```
+
+3. Ajouter le dossier au PATH utilisateur :
 
    ```powershell
    .\add-to-user-path.ps1
    ```
 
-3. Rouvrir un terminal pour que le PATH soit pris en compte.
+4. Rouvrir un terminal pour que le PATH soit pris en compte.
 
 ## Commandes disponibles
 

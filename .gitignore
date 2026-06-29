@@ -13,3 +13,6 @@ Desktop.ini
 # Temp
 *.tmp
 *.log
+
+# Wrappers CMD generes par build-script.ps1
+*.cmd
